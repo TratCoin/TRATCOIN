@@ -21,10 +21,10 @@ contract tokenRecipient { function receiveApproval(address _from, uint256 _value
 contract token {
     /* Public variables of the token */
     string public standard = 'ERC20';
-    string public name = "UniCoin";
-    string public symbol = "UNICOIN";
-    uint8 public decimals = 2;
-    uint256 public totalSupply = 1000000;
+    string public name = "TratCoin";
+    string public symbol = "TRAT";
+    uint8 public decimals = 18;
+    uint256 public totalSupply = 1000;
 
     /* This creates an array with all balances */
     mapping (address => uint256) public balanceOf;
